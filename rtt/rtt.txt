@@ -1,0 +1,159 @@
+No.     Time           Source                Destination           Protocol Length Info
+     60 3.109782       123.206.28.70         192.168.1.56          TCP      66     80→50819 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1424 SACK_PERM=1 WS=128
+
+Frame 60: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: CompalIn_0f:85:5b (f0:76:1c:0f:85:5b)
+Internet Protocol Version 4, Src: 123.206.28.70, Dst: 192.168.1.56
+Transmission Control Protocol, Src Port: 80, Dst Port: 50819, Seq: 0, Ack: 1, Len: 0
+    Source Port: 80
+    Destination Port: 50819
+    [Stream index: 5]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x012 (SYN, ACK)
+    Window size value: 29200
+    [Calculated window size: 29200]
+    Checksum: 0x776a [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted, No-Operation (NOP), Window scale
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 59]
+        [The RTT to ACK the segment was: 0.028158000 seconds]
+        [iRTT: 0.028358000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 3.109982       192.168.1.56          123.206.28.70         TCP      54     50819→80 [ACK] Seq=1 Ack=1 Win=66816 Len=0
+
+Frame 61: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: CompalIn_0f:85:5b (f0:76:1c:0f:85:5b), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.56, Dst: 123.206.28.70
+Transmission Control Protocol, Src Port: 50819, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+    Source Port: 50819
+    Destination Port: 80
+    [Stream index: 5]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 261
+    [Calculated window size: 66816]
+    [Window size scaling factor: 256]
+    Checksum: 0x5a0f [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 60]
+        [The RTT to ACK the segment was: 0.000200000 seconds]
+        [iRTT: 0.028358000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 3.417061       123.206.28.70         192.168.1.56          TCP      60     80→50819 [ACK] Seq=1 Ack=372 Win=30336 Len=0
+
+Frame 72: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: CompalIn_0f:85:5b (f0:76:1c:0f:85:5b)
+Internet Protocol Version 4, Src: 123.206.28.70, Dst: 192.168.1.56
+Transmission Control Protocol, Src Port: 80, Dst Port: 50819, Seq: 1, Ack: 372, Len: 0
+    Source Port: 80
+    Destination Port: 50819
+    [Stream index: 5]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 372    (relative ack number)
+    Header Length: 20 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x27c9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 70]
+        [The RTT to ACK the segment was: 0.025958000 seconds]
+        [iRTT: 0.028358000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 3.467921       192.168.1.56          123.206.28.70         TCP      54     50819→80 [ACK] Seq=372 Ack=220 Win=66560 Len=0
+
+Frame 74: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: CompalIn_0f:85:5b (f0:76:1c:0f:85:5b), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.56, Dst: 123.206.28.70
+Transmission Control Protocol, Src Port: 50819, Dst Port: 80, Seq: 372, Ack: 220, Len: 0
+    Source Port: 50819
+    Destination Port: 80
+    [Stream index: 5]
+    [TCP Segment Len: 0]
+    Sequence number: 372    (relative sequence number)
+    Acknowledgment number: 220    (relative ack number)
+    Header Length: 20 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 260
+    [Calculated window size: 66560]
+    [Window size scaling factor: 256]
+    Checksum: 0x5a0f [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 73]
+        [The RTT to ACK the segment was: 0.050024000 seconds]
+        [iRTT: 0.028358000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 4.366305       123.206.28.70         192.168.1.56          TCP      1466   [TCP segment of a reassembled PDU]
+
+Frame 94: 1466 bytes on wire (11728 bits), 1466 bytes captured (11728 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: CompalIn_0f:85:5b (f0:76:1c:0f:85:5b)
+Internet Protocol Version 4, Src: 123.206.28.70, Dst: 192.168.1.56
+Transmission Control Protocol, Src Port: 80, Dst Port: 50819, Seq: 220, Ack: 685, Len: 1412
+    Source Port: 80
+    Destination Port: 50819
+    [Stream index: 5]
+    [TCP Segment Len: 1412]
+    Sequence number: 220    (relative sequence number)
+    [Next sequence number: 1632    (relative sequence number)]
+    Acknowledgment number: 685    (relative ack number)
+    Header Length: 20 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0x7250 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 93]
+        [The RTT to ACK the segment was: 0.031642000 seconds]
+        [iRTT: 0.028358000 seconds]
+        [Bytes in flight: 1412]
+        [Bytes sent since last PSH flag: 1412]
+    TCP segment data (1412 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 4.366527       192.168.1.56          123.206.28.70         TCP      54     50819→80 [ACK] Seq=685 Ack=2047 Win=66816 Len=0
+
+Frame 96: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: CompalIn_0f:85:5b (f0:76:1c:0f:85:5b), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.56, Dst: 123.206.28.70
+Transmission Control Protocol, Src Port: 50819, Dst Port: 80, Seq: 685, Ack: 2047, Len: 0
+    Source Port: 50819
+    Destination Port: 80
+    [Stream index: 5]
+    [TCP Segment Len: 0]
+    Sequence number: 685    (relative sequence number)
+    Acknowledgment number: 2047    (relative ack number)
+    Header Length: 20 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 261
+    [Calculated window size: 66816]
+    [Window size scaling factor: 256]
+    Checksum: 0x5a0f [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 95]
+        [The RTT to ACK the segment was: 0.000221000 seconds]
+        [iRTT: 0.028358000 seconds]
