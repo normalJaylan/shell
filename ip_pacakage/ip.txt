@@ -1,0 +1,170 @@
+No.     Time           Source                Destination           Protocol Length Info
+     39 3.329190       192.168.1.172         182.254.139.111       TCP      66     9714 → 80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=4 SACK_PERM=1
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9714 (9714), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 3.331222       192.168.1.172         182.254.139.111       TCP      66     9715 → 80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=4 SACK_PERM=1
+
+Frame 40: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9715 (9715), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 3.390452       182.254.139.111       192.168.1.172         TCP      66     80 → 9714 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1424 SACK_PERM=1 WS=64
+
+Frame 41: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46)
+Internet Protocol Version 4, Src: 182.254.139.111, Dst: 192.168.1.172
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 9714 (9714), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 3.390563       192.168.1.172         182.254.139.111       TCP      54     9714 → 80 [ACK] Seq=1 Ack=1 Win=66928 Len=0
+
+Frame 42: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9714 (9714), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 3.391117       192.168.1.172         182.254.139.111       HTTP     471    GET / HTTP/1.1 
+
+Frame 43: 471 bytes on wire (3768 bits), 471 bytes captured (3768 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9714 (9714), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 417
+Hypertext Transfer Protocol
+    GET / HTTP/1.1\r\n
+    Host: www.jaylan.cc\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate, sdch\r\n
+    Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4\r\n
+    \r\n
+    [Full request URI: http://www.jaylan.cc/]
+    [HTTP request 1/2]
+    [Response in frame: 48]
+    [Next request in frame: 81]
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 3.391427       182.254.139.111       192.168.1.172         TCP      66     80 → 9715 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1424 SACK_PERM=1 WS=64
+
+Frame 44: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46)
+Internet Protocol Version 4, Src: 182.254.139.111, Dst: 192.168.1.172
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 9715 (9715), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 3.391549       192.168.1.172         182.254.139.111       TCP      54     9715 → 80 [ACK] Seq=1 Ack=1 Win=66928 Len=0
+
+Frame 45: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9715 (9715), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 3.454131       182.254.139.111       192.168.1.172         TCP      60     80 → 9714 [ACK] Seq=1 Ack=418 Win=15680 Len=0
+
+Frame 47: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46)
+Internet Protocol Version 4, Src: 182.254.139.111, Dst: 192.168.1.172
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 9714 (9714), Seq: 1, Ack: 418, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 3.454967       182.254.139.111       192.168.1.172         HTTP     233    HTTP/1.1 200 OK  (text/plain)
+
+Frame 48: 233 bytes on wire (1864 bits), 233 bytes captured (1864 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46)
+Internet Protocol Version 4, Src: 182.254.139.111, Dst: 192.168.1.172
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 9714 (9714), Seq: 1, Ack: 418, Len: 179
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Server: nginx/1.8.0\r\n
+    Date: Fri, 09 Dec 2016 01:53:27 GMT\r\n
+    Content-Type: text/plain\r\n
+    Transfer-Encoding: chunked\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.063850000 seconds]
+    [Request in frame: 43]
+    [Next request in frame: 81]
+    [Next response in frame: 82]
+    HTTP chunked response
+        Data chunk (14 octets)
+        End of chunked encoding
+        \r\n
+Line-based text data: text/plain
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 3.653230       192.168.1.172         182.254.139.111       TCP      54     9714 → 80 [ACK] Seq=418 Ack=180 Win=66748 Len=0
+
+Frame 52: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9714 (9714), Dst Port: 80 (80), Seq: 418, Ack: 180, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 5.104508       192.168.1.172         182.254.139.111       HTTP     455    GET /favicon.ico HTTP/1.1 
+
+Frame 81: 455 bytes on wire (3640 bits), 455 bytes captured (3640 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9714 (9714), Dst Port: 80 (80), Seq: 418, Ack: 180, Len: 401
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: www.jaylan.cc\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36\r\n
+    Accept: image/webp,image/*,*/*;q=0.8\r\n
+    Referer: http://www.jaylan.cc/\r\n
+    Accept-Encoding: gzip, deflate, sdch\r\n
+    Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4\r\n
+    \r\n
+    [Full request URI: http://www.jaylan.cc/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 43]
+    [Response in frame: 82]
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 5.166226       182.254.139.111       192.168.1.172         HTTP     233    HTTP/1.1 200 OK  (text/plain)
+
+Frame 82: 233 bytes on wire (1864 bits), 233 bytes captured (1864 bits) on interface 0
+Ethernet II, Src: AcctonTe_01:06:e8 (00:00:e8:01:06:e8), Dst: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46)
+Internet Protocol Version 4, Src: 182.254.139.111, Dst: 192.168.1.172
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 9714 (9714), Seq: 180, Ack: 819, Len: 179
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Server: nginx/1.8.0\r\n
+    Date: Fri, 09 Dec 2016 01:53:29 GMT\r\n
+    Content-Type: text/plain\r\n
+    Transfer-Encoding: chunked\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.061718000 seconds]
+    [Prev request in frame: 43]
+    [Prev response in frame: 48]
+    [Request in frame: 81]
+    HTTP chunked response
+        Data chunk (14 octets)
+        End of chunked encoding
+        \r\n
+Line-based text data: text/plain
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 5.366342       192.168.1.172         182.254.139.111       TCP      54     9714 → 80 [ACK] Seq=819 Ack=359 Win=66568 Len=0
+
+Frame 87: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: SamsungE_c4:5c:46 (24:f5:aa:c4:5c:46), Dst: AcctonTe_01:06:e8 (00:00:e8:01:06:e8)
+Internet Protocol Version 4, Src: 192.168.1.172, Dst: 182.254.139.111
+Transmission Control Protocol, Src Port: 9714 (9714), Dst Port: 80 (80), Seq: 819, Ack: 359, Len: 0
